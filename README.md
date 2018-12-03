@@ -52,7 +52,7 @@ The best method for debugging Excel custom function is to open this project in [
 3. Set a breakpoint. In this mode, you can set breakpoints in your code by hovering next to a line of code and selecting the red circle which appears.
 4. To start debugging, select F5. Several things will happen:  
     * In VS Code, the debug console will appear, allowing you to read messages which are logged to the debugger.  
-    * Excel for Windows will open and you add-in will be ready to use. The script running when you push F5 automatically registers your add-in, starts a dev server, starts Excel, and sideloads your add-in.
+    * Excel for Windows will open and your add-in will be ready to use. The script running when you push F5 automatically registers your add-in, starts a dev server, starts Excel, and sideloads your add-in.
     * Call the function in a cell of your workbook in Excel (e.g. `CONTOSO.ADD(1, 2)`). If you have set a breakpoint in the code, you should hit it in the debug console in VS Code.  
 
 If you prefer, you can also debug with the [F12 debugging tool native to your browser](https://docs.microsoft.com/office/dev/add-ins/testing/debug-add-ins-in-office-online). You can use `console.log` and `debugger` statements within your custom functions code to send output to the console in real time and set breakpoints.
